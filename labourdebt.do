@@ -15,7 +15,7 @@ global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\labourdebt"
 
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Thesis\Thesis_Labour_debt\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Thesis\Thesis_4-Labour_debt\Analysis"
 cd"$directory"
 
 ********** Scheme
