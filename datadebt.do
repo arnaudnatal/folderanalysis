@@ -2,7 +2,7 @@
 *Arnaud NATAL
 *arnaud.natal@u-bordeaux.fr
 *-----
-*evodebt
+*datadebt
 *-----
 *-------------------------
 
@@ -11,7 +11,7 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\evodebt"
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\datadebt"
 
 ********** Path to working directory directory
 global directory = "C:\Users\Arnaud\Documents\MEGA\Thesis\Thesis_2-Context_debt\Analysis"
