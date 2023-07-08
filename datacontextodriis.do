@@ -22,7 +22,7 @@ global datatracking1 = "C:\Users\Arnaud\Documents\MEGA\Data\Data_Tracking2019\DA
 global datatracking2 = "C:\Users\Arnaud\Documents\MEGA\Data\Data_Tracking2022\DATA\CLEAN"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Thesis\Thesis_Context_data\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing\Ongoing_Context_data\Analysis"
 cd"$directory"
 
 ********** Database names
