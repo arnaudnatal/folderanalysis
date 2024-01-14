@@ -14,7 +14,7 @@ macro drop _all
 global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\debttrap"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing\Ongoing_Trap\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Trap\Analysis"
 cd"$directory"
 
 ********** Database names
