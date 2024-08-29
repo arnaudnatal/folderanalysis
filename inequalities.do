@@ -19,9 +19,13 @@ global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Inequalities
 cd"$directory"
 
 ********** Scheme
-set scheme plotplain_v2
+*set scheme plotplain_v2
+*grstyle init
+*grstyle set plain, box nogrid
+
+set scheme plottig
 grstyle init
-grstyle set plain, box nogrid
+grstyle set plain, grid dotted box
 
 ********** Deflate
 *https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN
