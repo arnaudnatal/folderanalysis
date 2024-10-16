@@ -23,9 +23,13 @@ global wave2 = "NEEMSIS1-HH"
 global wave3 = "NEEMSIS2-HH"
 
 ********** Scheme
-set scheme plotplain_v2
+*set scheme plotplain_v2
+*grstyle init
+*grstyle set plain, box nogrid
+
+set scheme plottig
 grstyle init
-grstyle set plain, box nogrid
+grstyle set plain, grid dotted box
 
 ********** Deflate
 *https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN

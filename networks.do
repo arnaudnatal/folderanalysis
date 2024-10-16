@@ -1,8 +1,8 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
-*labourdebt
+*networks
 *-----
 *-------------------------
 
@@ -11,18 +11,16 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\labourdebt"
-
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\networks"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Labour_debt\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Networks\Analysis"
 cd"$directory"
 
 ********** Scheme
-set scheme plottig
+set scheme plotplain_v2
 grstyle init
 grstyle set plain, box nogrid
-
 
 ********** Deflate
 *https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN
