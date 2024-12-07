@@ -2,7 +2,7 @@
 *Arnaud NATAL
 *arnaud.natal@u-bordeaux.fr
 *-----
-*basicneeds
+*intrahhinequalities
 *-----
 *-------------------------
 
@@ -11,17 +11,21 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\basicneeds"
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\intrahhinequalities"
 
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Basic_needs\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_IntraHHInequalities\Analysis"
 cd"$directory"
 
 ********** Scheme
-set scheme plotplain_v2
+*set scheme plotplain_v2
+*grstyle init
+*grstyle set plain, box nogrid
+
+set scheme plottig
 grstyle init
-grstyle set plain, box nogrid
+grstyle set plain, grid dotted box
 
 ********** Deflate
 *https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN

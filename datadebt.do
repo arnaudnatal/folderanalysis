@@ -2,7 +2,7 @@
 *Arnaud NATAL
 *arnaud.natal@u-bordeaux.fr
 *-----
-*datadebt
+*datacontextodriis
 *-----
 *-------------------------
 
@@ -11,10 +11,10 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\datadebt"
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\datacontextodriis"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Thesis\Thesis_2-Context_debt\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Context_data\Analysis"
 cd"$directory"
 
 ********** Scheme
