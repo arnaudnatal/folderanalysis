@@ -1,20 +1,20 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
-*psychodebt
+*debtnetworks
 *-----
 *-------------------------
 
 ********** Clear
-*clear all
-*macro drop _all
+clear all
+macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\stabpsycho"
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\debtnetworks"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Stability\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Networks\Analysis_debt"
 cd"$directory"
 
 ********** Scheme

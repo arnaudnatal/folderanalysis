@@ -1,8 +1,8 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
-*intrahhinequalities
+*debtdiversity
 *-----
 *-------------------------
 
@@ -11,12 +11,16 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\intrahhinequalities"
-
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\debtdiversity"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_IntraHHInequalities\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Diversity\Analysis"
 cd"$directory"
+
+********** Database names
+global wave1 = "RUME-HH"
+global wave2 = "NEEMSIS1-HH"
+global wave3 = "NEEMSIS2-HH"
 
 ********** Scheme
 *set scheme plotplain_v2
