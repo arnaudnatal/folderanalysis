@@ -14,7 +14,7 @@ macro drop _all
 global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\datacontextodriis"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Context_data\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Diversity\Analysis"
 cd"$directory"
 
 ********** Scheme
