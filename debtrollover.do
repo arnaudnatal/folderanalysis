@@ -2,7 +2,7 @@
 *Arnaud NATAL
 *arnaud.natal@u-bordeaux.fr
 *-----
-*debttrap
+*debtrollover
 *-----
 *-------------------------
 
@@ -11,10 +11,10 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\debttrap"
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\debtrollover"
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Trap\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Rollover\Analysis"
 cd"$directory"
 
 ********** Database names
