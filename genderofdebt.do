@@ -1,8 +1,8 @@
 *-------------------------
 *Arnaud NATAL
-*arnaud.natal@u-bordeaux.fr
+*arnaud.natal@ifpindia.org
 *-----
-*datacontextodriis
+*genderofdebt
 *-----
 *-------------------------
 
@@ -11,16 +11,21 @@ clear all
 macro drop _all
 
 ********** Path to do
-global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\datadebt"
+global dofile = "C:\Users\Arnaud\Documents\GitHub\research_code\genderofdebt"
+
 
 ********** Path to working directory directory
-global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Diversity\Analysis"
+global directory = "C:\Users\Arnaud\Documents\MEGA\Research\Ongoing_Genderofdebt\Analysis"
 cd"$directory"
 
 ********** Scheme
-set scheme plotplain_v2
+*set scheme plotplain_v2
+*grstyle init
+*grstyle set plain, box nogrid
+
+set scheme plottig
 grstyle init
-grstyle set plain, box nogrid
+grstyle set plain, grid dotted box
 
 ********** Deflate
 *https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=IN
